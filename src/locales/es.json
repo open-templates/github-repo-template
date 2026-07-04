@@ -1,0 +1,461 @@
+{
+    "auth": {
+        "welcomeBack": "Bienvenido de nuevo",
+        "loginToAccount": "Inicia sesión en tu cuenta para continuar",
+        "createAccountTitle": "Crear cuenta",
+        "createAccountSubtitle": "Crea tu cuenta para continuar",
+        "loginWithGoogle": "Iniciar sesión con Google",
+        "loginWithMicrosoft": "Iniciar sesión con Microsoft",
+        "signUpWithGoogle": "Registrarse con Google",
+        "signUpWithMicrosoft": "Registrarse con Microsoft",
+        "orContinueWithEmail": "O continúa con correo electrónico",
+        "email": "Correo electrónico",
+        "emailPlaceholder": "nombre@ejemplo.com",
+        "password": "Contraseña",
+        "passwordPlaceholder": "Ingresa tu contraseña",
+        "confirmPassword": "Confirmar contraseña",
+        "confirmPasswordPlaceholder": "Confirma tu contraseña",
+        "passwordsDontMatch": "Las contraseñas no coinciden",
+        "accountCreated": "Cuenta creada exitosamente",
+        "signin": "Iniciar sesión",
+        "signup": "Registrarse",
+        "forgotPassword": "¿Olvidaste tu contraseña?",
+        "resetPasswordTitle": "Restablecer contraseña",
+        "resetPasswordSubtitle": "Ingresa tu correo para recibir un enlace para restablecer tu contraseña",
+        "sendResetLink": "Enviar enlace de restablecimiento",
+        "backToLogin": "Volver a iniciar sesión",
+        "password_changed": "Contraseña cambiada exitosamente",
+        "recoverPasswordTitle": "Recuperar contraseña",
+        "recoverPasswordSubtitle": "Ingresa tu correo para recuperar tu cuenta",
+        "sendRecoveryLink": "Enviar enlace de recuperación",
+        "haveAccount": "¿Tienes una cuenta?",
+        "dontHaveAccount": "¿No tienes una cuenta?",
+        "loading": "Cargando..."
+    },
+    "sidebar": {
+        "dashboard": "Panel Principal",
+        "invoices": "Facturas",
+        "clients": "Clientes",
+        "providers": "Proveedores",
+        "settings": "Configuración",
+        "general": "General",
+        "profile": "Perfil",
+        "serialPatterns": "Patrones Seriales"
+    },
+    "footer": {
+        "version": "Versión"
+    },
+    "pages": {
+        "selectOrganization": {
+            "title": "Seleccionar Organización",
+            "description": "Elige una organización para administrar",
+            "createNew": "Crear Organización",
+            "createDescription": "Ingresa el nombre de tu nueva organización",
+            "noOrgs": "Sin Organizaciones",
+            "createFirstOrg": "Crea tu primera organización para comenzar"
+        },
+        "settingsProfile": {
+            "title": "Configuración de Perfil",
+            "description": "Personaliza tus preferencias personales"
+        },
+        "dashboard": {
+            "title": "Bienvenido a Krill Bill",
+            "subtitle": "Tu gestor de facturas local-first SaaS",
+            "invoicesCreated": "Facturas Creadas",
+            "totalAmount": "Monto Total",
+            "clients": "Clientes",
+            "gettingStarted": "Primeros Pasos",
+            "step1": "✓ Configurar números de serie para tus facturas",
+            "step2": "○ Crear tu primera factura",
+            "step3": "○ Configurar clientes y proveedores",
+            "step4": "○ Habilitar automatización de facturación por correo",
+            "quickActions": "Acciones Rápidas"
+        },
+        "serialNumbers": {
+            "title": "Números de Serie",
+            "description": "Gestionar patrones de números de serie para facturas y documentos",
+            "search": "Buscar números de serie...",
+            "newSerialNumber": "Nuevo Número de Serie",
+            "loading": "Cargando números de serie...",
+            "noResults": "No se encontraron números de serie",
+            "createFirst": "Crea tu primer número de serie para comenzar"
+        },
+        "settingsGeneral": {
+            "title": "Configuración General",
+            "description": "Configura los ajustes generales de la aplicación",
+            "comingSoon": "Próximamente",
+            "comingSoonDesc": "La configuración general estará disponible pronto. Esta sección incluirá información comercial, preferencias y otras configuraciones generales."
+        },
+        "invoices": {
+            "title": "Facturas",
+            "description": "Gestiona y realiza un seguimiento de tus facturas",
+            "search": "Buscar facturas...",
+            "newInvoice": "Nueva Factura",
+            "createInvoice": "Crear Factura",
+            "createInvoiceDescription": "Crea una nueva factura para tu cliente",
+            "noInvoices": "Sin facturas aún",
+            "createFirstInvoice": "Comienza creando tu primera factura para comenzar a rastrear tus ventas",
+            "totalInvoices": "Total de Facturas",
+            "totalAmount": "Monto Total",
+            "pending": "Pendiente",
+            "placeholders": {
+                "clientName": "p. ej., Acme Inc.",
+                "amount": "0.00",
+                "description": "Descripción de la factura"
+            },
+            "errors": {
+                "invoiceNumberRequired": "El número de factura es obligatorio",
+                "issueDateRequired": "La fecha de emisión es obligatoria",
+                "issuerRequired": "El nombre del emisor es obligatorio",
+                "recipientRequired": "El nombre del destinatario es obligatorio",
+                "noItems": "Agrega al menos un artículo a la factura",
+                "clientNameRequired": "El nombre del cliente es obligatorio",
+                "amountRequired": "El monto es obligatorio",
+                "amountInvalid": "El monto debe ser un número válido"
+            }
+        },
+        "clients": {
+            "title": "Clientes",
+            "description": "Gestiona tu base de datos de clientes",
+            "search": "Buscar clientes...",
+            "newClient": "Nuevo Cliente",
+            "addClient": "Agregar Cliente",
+            "noClients": "Sin clientes aún",
+            "addFirstClient": "Comienza agregando tu primer cliente a tu base de datos",
+            "totalClientes": "Total de Clientes",
+            "totalRevenue": "Ingresos Totales",
+            "activeContracts": "Contratos Activos"
+        },
+        "providers": {
+            "title": "Proveedores",
+            "description": "Gestiona tu red de proveedores",
+            "search": "Buscar proveedores...",
+            "newProvider": "Nuevo Proveedor",
+            "noProviders": "Sin proveedores aún",
+            "addFirstProvider": "Comienza agregando tu primer proveedor a tu red",
+            "totalProviders": "Total de Proveedores",
+            "totalSpent": "Total Gastado",
+            "activeContracts": "Contratos Activos"
+        }
+    },
+    "modals": {
+        "serialNumber": {
+            "createTitle": "Crear Número de Serie",
+            "editTitle": "Editar Número de Serie",
+            "name": "Nombre",
+            "nameHelp": "p. ej., SI, PI, ORD",
+            "entityType": "Tipo de Entidad",
+            "pattern": "Patrón",
+            "lastNumberUsed": "Último Número Utilizado",
+            "patternFormat": "Formato de Patrón:",
+            "nextExample": "Próximo ejemplo (comenzando desde",
+            "cancel": "Cancelar",
+            "create": "Crear",
+            "update": "Actualizar",
+            "hints": {
+                "digits": "Usa %%%% para dígitos numéricos (cada % = un dígito)",
+                "year": "Usa [YYYY] para el año (2026)",
+                "shortYear": "Usa [YY] para año corto (26)",
+                "month": "Usa [MM] para mes (01-12)",
+                "day": "Usa [DD] para día (01-31)"
+            },
+            "errors": {
+                "nameRequired": "El nombre es obligatorio",
+                "patternInvalid": "Patrón inválido",
+                "lastNumberNegative": "El último número debe ser no negativo"
+            }
+        }
+    },
+    "table": {
+        "name": "Nombre",
+        "entity": "Entidad",
+        "pattern": "Patrón",
+        "nextNumber": "Próximo Número",
+        "actions": "Acciones"
+    },
+    "buttons": {
+        "save": "Guardar",
+        "delete": "Eliminar",
+        "edit": "Editar",
+        "cancel": "Cancelar",
+        "close": "Cerrar",
+        "light": "Claro",
+        "dark": "Oscuro",
+        "system": "Sistema",
+        "addSerialNumber": "Agregar Número de Serie",
+        "discard": "Descartar",
+        "keepEditing": "Seguir Editando"
+    },
+    "actions": {
+        "save": "Guardar Configuración",
+        "saving": "Guardando...",
+        "cancel": "Cancelar",
+        "create": "Crear",
+        "creating": "Creando...",
+        "logout": "Cerrar Sesión"
+    },
+    "form": {
+        "organizationName": "Nombre de la Organización",
+        "organizationNamePlaceholder": "Mi Empresa"
+    },
+    "languages": {
+        "current": "Español",
+        "en": "Inglés",
+        "es": "Español"
+    },
+    "toasts": {
+        "serialNumberCreated": "Número de serie creado exitosamente",
+        "serialNumberUpdated": "Número de serie actualizado exitosamente",
+        "serialNumberDeleted": "Número de serie eliminado exitosamente",
+        "settingsSaved": "Configuración guardada exitosamente",
+        "loggedOut": "Sesión cerrada exitosamente",
+        "organizationCreated": "Organización creada exitosamente",
+        "invoiceCreated": "Factura creada exitosamente"
+    },
+    "errors": {
+        "logout": "Error al cerrar sesión",
+        "organizationNameRequired": "El nombre de la organización es obligatorio",
+        "creatingOrganization": "Error al crear la organización",
+        "loadingOrganizations": "Error al cargar las organizaciones",
+        "savingSettings": "Error al guardar la configuración",
+        "creatingInvoice": "Error al crear la factura",
+        "userOrOrgNotFound": "Usuario u organización no encontrada"
+    },
+    "common": {
+        "providerName": "Nombre del Proveedor",
+        "clientName": "Nombre del Cliente",
+        "amount": "Monto",
+        "email": "Correo Electrónico",
+        "phone": "Teléfono",
+        "description": "Descripción",
+        "cancel": "Cancelar",
+        "create": "Crear Factura",
+        "creating": "Creando...",
+        "saving": "Guardando...",
+        "loading": "Cargando...",
+        "confirmDelete": "¿Estás seguro?"
+    },
+    "providers": {
+        "createProvider": "Crear Proveedor",
+        "createProviderDescription": "Agrega un nuevo proveedor a tu red",
+        "placeholders": {
+            "providerName": "p. ej., Acme Supplies",
+            "email": "proveedor@example.com",
+            "phone": "+34 666 00 00 00",
+            "description": "Detalles del proveedor y notas"
+        },
+        "errors": {
+            "providerNameRequired": "El nombre del proveedor es obligatorio",
+            "emailRequired": "El correo electrónico es obligatorio",
+            "emailInvalid": "El correo electrónico debe ser válido"
+        },
+        "createdSuccess": "Proveedor creado exitosamente",
+        "createError": "Error al crear el proveedor"
+    },
+    "invoices": {
+        "createInvoice": "Crear Factura",
+        "createInvoiceDescription": "Crea una nueva factura para tu cliente",
+        "preview": "Vista Previa",
+        "previewPDF": "Vista Previa PDF",
+        "invoice": "Factura",
+        "editInvoice": "Editar detalles de la factura",
+        "basicInfo": "Información Básica",
+        "number": "Número de Factura",
+        "type": "Tipo de Factura",
+        "sales": "Ventas",
+        "purchase": "Compras",
+        "issuer": "Emisor",
+        "recipient": "Destinatario",
+        "issueDate": "Fecha de Emisión",
+        "dueDate": "Fecha de Vencimiento",
+        "statusColumn": "Estado",
+        "items": "Líneas",
+        "amount": "Importe",
+        "date": "Fecha",
+        "noInvoices": "Sin facturas aún",
+        "createFirst": "Crea tu primera factura para comenzar",
+        "deleteTitle": "¿Eliminar Factura?",
+        "deleteDescription": "¿Estás seguro de que deseas eliminar esta factura? Esta acción no se puede deshacer.",
+        "deletedSuccess": "Factura eliminada exitosamente",
+        "updatedSuccess": "Factura actualizada exitosamente",
+        "status": {
+            "draft": "Borrador",
+            "sent": "Enviada",
+            "paid": "Pagada",
+            "overdue": "Vencida",
+            "cancelled": "Cancelada"
+        },
+        "errors": {
+            "invoiceNumberRequired": "El número de factura es obligatorio",
+            "issueDateRequired": "La fecha de emisión es obligatoria",
+            "issuerRequired": "El nombre del emisor es obligatorio",
+            "recipientRequired": "Por favor selecciona un cliente",
+            "noItems": "Agrega al menos un artículo a la factura",
+            "itemNameRequired": "Cada artículo debe tener un nombre"
+        },
+        "wizard": {
+            "stepClient": "Cliente",
+            "stepClientDesc": "A quién facturar",
+            "stepDetails": "Detalles",
+            "stepDetailsDesc": "Número y fechas",
+            "stepItems": "Artículos",
+            "stepItemsDesc": "Productos y servicios",
+            "stepReview": "Revisar",
+            "stepReviewDesc": "Confirmar y crear",
+            "salesHint": "Factura a un cliente por tus servicios",
+            "purchaseHint": "Registra un gasto de un proveedor",
+            "selectClient": "Seleccionar Cliente",
+            "noClients": "Sin clientes aún. Agrega un cliente primero para crear una factura.",
+            "generate": "Generar",
+            "descriptionPlaceholder": "Condiciones de pago, referencia del proyecto, etc.",
+            "itemsHint": "Agrega productos o servicios a facturar",
+            "addItem": "Agregar Artículo",
+            "noItemsYet": "Sin artículos aún. Agrega tu primera línea.",
+            "item": "Artículo",
+            "itemName": "Nombre del servicio o producto",
+            "qty": "Cant.",
+            "price": "Precio",
+            "total": "Total",
+            "applyVat": "Aplicar IVA 21%",
+            "subtotal": "Subtotal",
+            "vat": "IVA (21%)",
+            "grandTotal": "Total",
+            "reviewHint": "Revisa los detalles antes de crear tu factura.",
+            "reviewParties": "Partes",
+            "reviewDetails": "Detalles",
+            "itemsCount": "artículos",
+            "previewHint": "Se actualiza mientras completas el formulario",
+            "back": "Atrás",
+            "continue": "Continuar",
+            "createInvoice": "Crear Factura"
+        }
+    },
+    "settings": {
+        "general": "General",
+        "displayLocalization": "Preferencias de pantalla e idioma",
+        "theme": {
+            "title": "Tema",
+            "description": "Elige tu tema de color preferido",
+            "light": "Claro",
+            "dark": "Oscuro",
+            "system": "Sistema"
+        },
+        "accentColor": {
+            "title": "Color de Acento",
+            "description": "Elige tu color de acento"
+        },
+        "language": {
+            "title": "Idioma",
+            "description": "Selecciona tu idioma preferido",
+            "english": "English",
+            "spanish": "Español"
+        },
+        "businessInfo": "Información Comercial",
+        "basicBusinessInfo": "Información comercial básica",
+        "businessName": "Nombre del Negocio",
+        "businessNamePlaceholder": "El nombre de tu negocio",
+        "website": "Sitio Web",
+        "websitePlaceholder": "https://example.com",
+        "address": "Dirección",
+        "businessLocation": "Ubicación y dirección del negocio",
+        "addressLine1": "Línea de Dirección 1",
+        "addressLine1Placeholder": "Dirección de la calle",
+        "addressLine2": "Línea de Dirección 2",
+        "addressLine2Placeholder": "Apartamento, suite, unidad, etc.",
+        "city": "Ciudad",
+        "cityPlaceholder": "Ciudad",
+        "postalCode": "Código Postal",
+        "postalCodePlaceholder": "Código postal",
+        "stateProvince": "Estado / Provincia",
+        "stateProvincePlaceholder": "Estado o provincia",
+        "country": "País",
+        "invoiceSettings": "Configuración de Factura",
+        "defaultInvoiceSettings": "Configuración por defecto para facturas",
+        "currency": "Moneda",
+        "defaultDueDays": "Días de Vencimiento Predeterminados",
+        "defaultDueDaysPlaceholder": "30",
+        "defaultPaymentTerms": "Términos de pago predeterminados en días",
+        "saveChanges": "Guardar Cambios"
+    },
+    "countries": {
+        "spain": "España",
+        "france": "Francia",
+        "germany": "Alemania",
+        "italy": "Italia",
+        "portugal": "Portugal",
+        "unitedStates": "Estados Unidos",
+        "mexico": "México",
+        "unitedKingdom": "Reino Unido"
+    },
+    "currencies": {
+        "eur": "EUR - Euro",
+        "usd": "USD - Dólar estadounidense",
+        "gbp": "GBP - Libra Esterlina",
+        "jpy": "JPY - Yen Japonés",
+        "chf": "CHF - Franco Suizo",
+        "cad": "CAD - Dólar Canadiense",
+        "aud": "AUD - Dólar Australiano",
+        "mxn": "MXN - Peso Mexicano"
+    },
+    "chat": {
+        "title": "Chat",
+        "placeholder": "Los mensajes de chat aparecerán aquí",
+        "inputPlaceholder": "Escribe un mensaje..."
+    },
+    "colorPicker": {
+        "title": "Elegir Color de Acento",
+        "description": "Selecciona un color para personalizar el color de acento de tu aplicación para botones, destacados y estados activos.",
+        "done": "Listo",
+        "currentColor": "Color actual: {{color}}",
+        "aria": "Color actual: {{color}}. Haz clic para abrir el selector de color."
+    },
+    "modals": {
+        "serialNumber": {
+            "createTitle": "Crear Número de Serie",
+            "editTitle": "Editar Número de Serie",
+            "name": "Nombre",
+            "nameHelp": "p. ej., SI, PI, ORD",
+            "entityType": "Tipo de Entidad",
+            "pattern": "Patrón",
+            "patternPlaceholder": "p. ej., INV-[YYYY]-%%%%%",
+            "lastNumberUsed": "Último Número Utilizado",
+            "patternFormat": "Formato de Patrón:",
+            "nextExample": "Próximo ejemplo (comenzando desde",
+            "salesInvoices": "Facturas de Venta",
+            "purchaseInvoices": "Facturas de Compra",
+            "orders": "Pedidos",
+            "cancel": "Cancelar",
+            "create": "Crear",
+            "update": "Actualizar",
+            "hints": {
+                "digits": "Usa %%%% para dígitos numéricos (cada % = un dígito)",
+                "year": "Usa [YYYY] para el año (2026)",
+                "shortYear": "Usa [YY] para año corto (26)",
+                "month": "Usa [MM] para mes (01-12)",
+                "day": "Usa [DD] para día (01-31)"
+            },
+            "errors": {
+                "nameRequired": "El nombre es obligatorio",
+                "patternInvalid": "Patrón inválido",
+                "lastNumberNegative": "El último número debe ser no negativo"
+            }
+        },
+        "unsavedChanges": {
+            "title": "Cambios sin Guardar",
+            "description": "Tienes cambios sin guardar. ¿Estás seguro de que deseas irte sin guardar?",
+            "keepEditing": "Seguir Editando",
+            "discard": "Descartar"
+        }
+    },
+    "accessibility": {
+        "openMenu": "Abrir menú"
+    },
+    "errorBoundary": {
+        "title": "Algo salió mal",
+        "description": "Ocurrió un error inesperado. Por favor intenta actualizar la página.",
+        "reload": "Recargar página",
+        "tryAgain": "Intentar de nuevo",
+        "showDetails": "Mostrar detalles",
+        "hideDetails": "Ocultar detalles"
+    }
+}

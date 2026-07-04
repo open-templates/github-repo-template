@@ -1,0 +1,461 @@
+{
+    "auth": {
+        "welcomeBack": "Welcome back",
+        "loginToAccount": "Login to your account to continue",
+        "createAccountTitle": "Create account",
+        "createAccountSubtitle": "Create your account to continue",
+        "loginWithGoogle": "Login with Google",
+        "loginWithMicrosoft": "Login with Microsoft",
+        "signUpWithGoogle": "Sign up with Google",
+        "signUpWithMicrosoft": "Sign up with Microsoft",
+        "orContinueWithEmail": "Or continue with email",
+        "email": "Email",
+        "emailPlaceholder": "name@example.com",
+        "password": "Password",
+        "passwordPlaceholder": "Enter your password",
+        "confirmPassword": "Confirm password",
+        "confirmPasswordPlaceholder": "Confirm your password",
+        "passwordsDontMatch": "Passwords don't match",
+        "accountCreated": "Account created successfully",
+        "signin": "Sign in",
+        "signup": "Sign up",
+        "forgotPassword": "Forgot your password?",
+        "resetPasswordTitle": "Reset password",
+        "resetPasswordSubtitle": "Enter your email to receive a password reset link",
+        "sendResetLink": "Send reset link",
+        "backToLogin": "Back to login",
+        "password_changed": "Password changed successfully",
+        "recoverPasswordTitle": "Recover password",
+        "recoverPasswordSubtitle": "Enter your email to recover your account",
+        "sendRecoveryLink": "Send recovery link",
+        "haveAccount": "Have an account?",
+        "dontHaveAccount": "Don't have an account?",
+        "loading": "Loading..."
+    },
+    "sidebar": {
+        "dashboard": "Dashboard",
+        "invoices": "Invoices",
+        "clients": "Clients",
+        "providers": "Providers",
+        "settings": "Settings",
+        "general": "General",
+        "profile": "Profile",
+        "serialPatterns": "Serial Patterns"
+    },
+    "footer": {
+        "version": "Version"
+    },
+    "pages": {
+        "selectOrganization": {
+            "title": "Select Organization",
+            "description": "Choose an organization to manage",
+            "createNew": "Create Organization",
+            "createDescription": "Enter the name of your new organization",
+            "noOrgs": "No Organizations",
+            "createFirstOrg": "Create your first organization to get started"
+        },
+        "settingsProfile": {
+            "title": "Profile Settings",
+            "description": "Customize your personal preferences"
+        },
+        "dashboard": {
+            "title": "Welcome to Krill Bill",
+            "subtitle": "Your local-first invoice manager SaaS",
+            "invoicesCreated": "Invoices Created",
+            "totalAmount": "Total Amount",
+            "clients": "Clients",
+            "gettingStarted": "Getting Started",
+            "step1": "✓ Set up serial numbers for your invoices",
+            "step2": "○ Create your first invoice",
+            "step3": "○ Configure clients and vendors",
+            "step4": "○ Enable mail billing automation",
+            "quickActions": "Quick Actions"
+        },
+        "serialNumbers": {
+            "title": "Serial Numbers",
+            "description": "Manage invoice and document serial number patterns",
+            "search": "Search serial numbers...",
+            "newSerialNumber": "New Serial Number",
+            "loading": "Loading serial numbers...",
+            "noResults": "No serial numbers found",
+            "createFirst": "Create your first serial number to get started"
+        },
+        "settingsGeneral": {
+            "title": "General Settings",
+            "description": "Configure general application settings",
+            "comingSoon": "Coming Soon",
+            "comingSoonDesc": "General settings will be available soon. This section will include business information, preferences, and other general configurations."
+        },
+        "invoices": {
+            "title": "Invoices",
+            "description": "Manage and track your invoices",
+            "search": "Search invoices...",
+            "newInvoice": "New Invoice",
+            "createInvoice": "Create Invoice",
+            "createInvoiceDescription": "Create a new invoice for your client",
+            "noInvoices": "No invoices yet",
+            "createFirstInvoice": "Start by creating your first invoice to begin tracking your sales",
+            "totalInvoices": "Total Invoices",
+            "totalAmount": "Total Amount",
+            "pending": "Pending",
+            "placeholders": {
+                "clientName": "e.g., Acme Inc.",
+                "amount": "0.00",
+                "description": "Invoice description"
+            },
+            "errors": {
+                "invoiceNumberRequired": "Invoice number is required",
+                "issueDateRequired": "Issue date is required",
+                "issuerRequired": "Issuer name is required",
+                "recipientRequired": "Recipient name is required",
+                "noItems": "Add at least one item to the invoice",
+                "clientNameRequired": "Client name is required",
+                "amountRequired": "Amount is required",
+                "amountInvalid": "Amount must be a valid number"
+            }
+        },
+        "clients": {
+            "title": "Clients",
+            "description": "Manage your client database",
+            "search": "Search clients...",
+            "newClient": "New Client",
+            "addClient": "Add Client",
+            "noClients": "No clients yet",
+            "addFirstClient": "Start by adding your first client to your database",
+            "totalClients": "Total Clients",
+            "totalRevenue": "Total Revenue",
+            "activeContracts": "Active Contracts"
+        },
+        "providers": {
+            "title": "Providers",
+            "description": "Manage your provider network",
+            "search": "Search providers...",
+            "newProvider": "New Provider",
+            "noProviders": "No providers yet",
+            "addFirstProvider": "Start by adding your first provider to your network",
+            "totalProviders": "Total Providers",
+            "totalSpent": "Total Spent",
+            "activeContracts": "Active Contracts"
+        }
+    },
+    "modals": {
+        "serialNumber": {
+            "createTitle": "Create Serial Number",
+            "editTitle": "Edit Serial Number",
+            "name": "Name",
+            "nameHelp": "e.g., SI, PI, ORD",
+            "entityType": "Entity Type",
+            "pattern": "Pattern",
+            "lastNumberUsed": "Last Number Used",
+            "patternFormat": "Pattern Format:",
+            "nextExample": "Next example (starting from",
+            "cancel": "Cancel",
+            "create": "Create",
+            "update": "Update",
+            "hints": {
+                "digits": "Use %%%% for number digits (each % = one digit)",
+                "year": "Use [YYYY] for year (2026)",
+                "shortYear": "Use [YY] for short year (26)",
+                "month": "Use [MM] for month (01-12)",
+                "day": "Use [DD] for day (01-31)"
+            },
+            "errors": {
+                "nameRequired": "Name is required",
+                "patternInvalid": "Invalid pattern",
+                "lastNumberNegative": "Last number must be non-negative"
+            }
+        }
+    },
+    "table": {
+        "name": "Name",
+        "entity": "Entity",
+        "pattern": "Pattern",
+        "nextNumber": "Next Number",
+        "actions": "Actions"
+    },
+    "buttons": {
+        "save": "Save",
+        "delete": "Delete",
+        "edit": "Edit",
+        "cancel": "Cancel",
+        "close": "Close",
+        "light": "Light",
+        "dark": "Dark",
+        "system": "System",
+        "addSerialNumber": "Add Serial Number",
+        "discard": "Discard",
+        "keepEditing": "Keep Editing"
+    },
+    "actions": {
+        "save": "Save Settings",
+        "saving": "Saving...",
+        "cancel": "Cancel",
+        "create": "Create",
+        "creating": "Creating...",
+        "logout": "Log Out"
+    },
+    "form": {
+        "organizationName": "Organization Name",
+        "organizationNamePlaceholder": "My Company"
+    },
+    "languages": {
+        "current": "English",
+        "en": "English",
+        "es": "Spanish"
+    },
+    "toasts": {
+        "serialNumberCreated": "Serial number created successfully",
+        "serialNumberUpdated": "Serial number updated successfully",
+        "serialNumberDeleted": "Serial number deleted successfully",
+        "settingsSaved": "Settings saved successfully",
+        "loggedOut": "Logged out successfully",
+        "organizationCreated": "Organization created successfully",
+        "invoiceCreated": "Invoice created successfully"
+    },
+    "errors": {
+        "logout": "Failed to log out",
+        "organizationNameRequired": "Organization name is required",
+        "creatingOrganization": "Failed to create organization",
+        "loadingOrganizations": "Failed to load organizations",
+        "savingSettings": "Failed to save settings",
+        "creatingInvoice": "Failed to create invoice",
+        "userOrOrgNotFound": "User or organization not found"
+    },
+    "common": {
+        "providerName": "Provider Name",
+        "clientName": "Client Name",
+        "amount": "Amount",
+        "email": "Email",
+        "phone": "Phone",
+        "description": "Description",
+        "cancel": "Cancel",
+        "create": "Create Invoice",
+        "creating": "Creating...",
+        "saving": "Saving...",
+        "loading": "Loading...",
+        "confirmDelete": "Are you sure?"
+    },
+    "providers": {
+        "createProvider": "Create Provider",
+        "createProviderDescription": "Add a new provider to your network",
+        "placeholders": {
+            "providerName": "e.g., Acme Supplies",
+            "email": "provider@example.com",
+            "phone": "+1 (555) 000-0000",
+            "description": "Provider details and notes"
+        },
+        "errors": {
+            "providerNameRequired": "Provider name is required",
+            "emailRequired": "Email is required",
+            "emailInvalid": "Email must be valid"
+        },
+        "createdSuccess": "Provider created successfully",
+        "createError": "Failed to create provider"
+    },
+    "invoices": {
+        "createInvoice": "Create Invoice",
+        "createInvoiceDescription": "Create a new invoice for your client",
+        "preview": "Live Preview",
+        "previewPDF": "Preview PDF",
+        "invoice": "Invoice",
+        "editInvoice": "Edit invoice details",
+        "basicInfo": "Basic Information",
+        "number": "Invoice Number",
+        "type": "Invoice Type",
+        "sales": "Sales",
+        "purchase": "Purchase",
+        "issuer": "Issuer",
+        "recipient": "Recipient",
+        "issueDate": "Issue Date",
+        "dueDate": "Due Date",
+        "statusColumn": "Status",
+        "items": "Line Items",
+        "amount": "Amount",
+        "date": "Date",
+        "noInvoices": "No invoices yet",
+        "createFirst": "Create your first invoice to get started",
+        "deleteTitle": "Delete Invoice?",
+        "deleteDescription": "Are you sure you want to delete this invoice? This action cannot be undone.",
+        "deletedSuccess": "Invoice deleted successfully",
+        "updatedSuccess": "Invoice updated successfully",
+        "status": {
+            "draft": "Draft",
+            "sent": "Sent",
+            "paid": "Paid",
+            "overdue": "Overdue",
+            "cancelled": "Cancelled"
+        },
+        "errors": {
+            "invoiceNumberRequired": "Invoice number is required",
+            "issueDateRequired": "Issue date is required",
+            "issuerRequired": "Issuer name is required",
+            "recipientRequired": "Please select a client",
+            "noItems": "Add at least one item to the invoice",
+            "itemNameRequired": "Each item must have a name"
+        },
+        "wizard": {
+            "stepClient": "Client",
+            "stepClientDesc": "Who to bill",
+            "stepDetails": "Details",
+            "stepDetailsDesc": "Number & dates",
+            "stepItems": "Items",
+            "stepItemsDesc": "Products & services",
+            "stepReview": "Review",
+            "stepReviewDesc": "Confirm & create",
+            "salesHint": "Bill a client for your services",
+            "purchaseHint": "Record an expense from a provider",
+            "selectClient": "Select Client",
+            "noClients": "No clients yet. Add a client first to create an invoice.",
+            "generate": "Generate",
+            "descriptionPlaceholder": "Payment terms, project reference, etc.",
+            "itemsHint": "Add products or services to bill",
+            "addItem": "Add Item",
+            "noItemsYet": "No items yet. Add your first line item.",
+            "item": "Item",
+            "itemName": "Service or product name",
+            "qty": "Qty",
+            "price": "Price",
+            "total": "Total",
+            "applyVat": "Apply 21% VAT",
+            "subtotal": "Subtotal",
+            "vat": "VAT (21%)",
+            "grandTotal": "Total",
+            "reviewHint": "Review the details below before creating your invoice.",
+            "reviewParties": "Parties",
+            "reviewDetails": "Details",
+            "itemsCount": "items",
+            "previewHint": "Updates as you fill in the form",
+            "back": "Back",
+            "continue": "Continue",
+            "createInvoice": "Create Invoice"
+        }
+    },
+    "settings": {
+        "general": "General",
+        "displayLocalization": "Display and localization preferences",
+        "theme": {
+            "title": "Theme",
+            "description": "Choose your preferred color theme",
+            "light": "Light",
+            "dark": "Dark",
+            "system": "System"
+        },
+        "accentColor": {
+            "title": "Accent Color",
+            "description": "Choose your accent color"
+        },
+        "language": {
+            "title": "Language",
+            "description": "Select your preferred language",
+            "english": "English",
+            "spanish": "Español"
+        },
+        "businessInfo": "Business Info",
+        "basicBusinessInfo": "Basic business information",
+        "businessName": "Business Name",
+        "businessNamePlaceholder": "Your business name",
+        "website": "Website",
+        "websitePlaceholder": "https://example.com",
+        "address": "Address",
+        "businessLocation": "Business location and address",
+        "addressLine1": "Address Line 1",
+        "addressLine1Placeholder": "Street address",
+        "addressLine2": "Address Line 2",
+        "addressLine2Placeholder": "Apartment, suite, unit, etc.",
+        "city": "City",
+        "cityPlaceholder": "City",
+        "postalCode": "Postal Code",
+        "postalCodePlaceholder": "Postal code",
+        "stateProvince": "State / Province",
+        "stateProvincePlaceholder": "State or province",
+        "country": "Country",
+        "invoiceSettings": "Invoice Settings",
+        "defaultInvoiceSettings": "Default settings for invoices",
+        "currency": "Currency",
+        "defaultDueDays": "Default Due Days",
+        "defaultDueDaysPlaceholder": "30",
+        "defaultPaymentTerms": "Default payment terms in days",
+        "saveChanges": "Save Changes"
+    },
+    "countries": {
+        "spain": "Spain",
+        "france": "France",
+        "germany": "Germany",
+        "italy": "Italy",
+        "portugal": "Portugal",
+        "unitedStates": "United States",
+        "mexico": "Mexico",
+        "unitedKingdom": "United Kingdom"
+    },
+    "currencies": {
+        "eur": "EUR - Euro",
+        "usd": "USD - US Dollar",
+        "gbp": "GBP - British Pound",
+        "jpy": "JPY - Japanese Yen",
+        "chf": "CHF - Swiss Franc",
+        "cad": "CAD - Canadian Dollar",
+        "aud": "AUD - Australian Dollar",
+        "mxn": "MXN - Mexican Peso"
+    },
+    "chat": {
+        "title": "Chat",
+        "placeholder": "Chat messages will appear here",
+        "inputPlaceholder": "Type a message..."
+    },
+    "colorPicker": {
+        "title": "Choose Accent Color",
+        "description": "Select a color to customize your app's accent color for buttons, highlights, and active states.",
+        "done": "Done",
+        "currentColor": "Current color: {{color}}",
+        "aria": "Current color: {{color}}. Click to open color picker."
+    },
+    "modals": {
+        "serialNumber": {
+            "createTitle": "Create Serial Number",
+            "editTitle": "Edit Serial Number",
+            "name": "Name",
+            "nameHelp": "e.g., SI, PI, ORD",
+            "entityType": "Entity Type",
+            "pattern": "Pattern",
+            "patternPlaceholder": "e.g., INV-[YYYY]-%%%%%",
+            "lastNumberUsed": "Last Number Used",
+            "patternFormat": "Pattern Format:",
+            "nextExample": "Next example (starting from",
+            "salesInvoices": "Sales Invoices",
+            "purchaseInvoices": "Purchase Invoices",
+            "orders": "Orders",
+            "cancel": "Cancel",
+            "create": "Create",
+            "update": "Update",
+            "hints": {
+                "digits": "Use %%%% for number digits (each % = one digit)",
+                "year": "Use [YYYY] for year (2026)",
+                "shortYear": "Use [YY] for short year (26)",
+                "month": "Use [MM] for month (01-12)",
+                "day": "Use [DD] for day (01-31)"
+            },
+            "errors": {
+                "nameRequired": "Name is required",
+                "patternInvalid": "Invalid pattern",
+                "lastNumberNegative": "Last number must be non-negative"
+            }
+        },
+        "unsavedChanges": {
+            "title": "Unsaved Changes",
+            "description": "You have unsaved changes. Are you sure you want to leave without saving?",
+            "keepEditing": "Keep Editing",
+            "discard": "Discard"
+        }
+    },
+    "accessibility": {
+        "openMenu": "Open menu"
+    },
+    "errorBoundary": {
+        "title": "Something went wrong",
+        "description": "An unexpected error occurred. Please try refreshing the page.",
+        "reload": "Reload page",
+        "tryAgain": "Try again",
+        "showDetails": "Show details",
+        "hideDetails": "Hide details"
+    }
+}
