@@ -106,9 +106,4 @@ Translations are available at https://www.contributor-covenant.org/translations.
 
 ## Repository documents
 
-- [README](README.md)
-- [INSTRUCTIONS](INSTRUCTIONS.md)
-- [CHANGELOG](CHANGELOG.md)
-- [CONTRIBUTING](CONTRIBUTING.md)
-- [SECURITY](SECURITY.md)
-- **CODE_OF_CONDUCT**
+[README](README.md) | [INSTRUCTIONS](INSTRUCTIONS.md) | [CHANGELOG](CHANGELOG.md) | [CONTRIBUTING](CONTRIBUTING.md) | [SECURITY](SECURITY.md) | **CODE_OF_CONDUCT**

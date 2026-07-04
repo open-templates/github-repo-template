@@ -21,6 +21,8 @@ There are **no other GitHub Actions workflows** in this template (no CI build/te
 | [`.github/pull_request_template.md`](.github/pull_request_template.md) | PR description scaffold |
 | [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) | Structured bug, feature, and documentation issue forms |
 
+Full reference for every workflow and template: **[docs/README.md](docs/README.md)**.
+
 ### Markdown documents (root)
 
 These render in the GitHub web UI and cross-link at the bottom of each file for easy navigation:
@@ -28,6 +30,7 @@ These render in the GitHub web UI and cross-link at the bottom of each file for 
 | Document | Purpose |
 |----------|---------|
 | **README.md** (this file) | Project overview and template scope |
+| [docs/README.md](docs/README.md) | Index for workflow and GitHub template documentation |
 | [INSTRUCTIONS.md](INSTRUCTIONS.md) | Maintainer and agent guide: fork setup, CHANGELOG workflow, automation |
 | [CHANGELOG.md](CHANGELOG.md) | Version history ([Keep a Changelog](https://keepachangelog.com/)) |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
@@ -64,9 +67,4 @@ MIT — see [LICENSE](LICENSE).
 
 ## Repository documents
 
-- **README**
-- [INSTRUCTIONS](INSTRUCTIONS.md)
-- [CHANGELOG](CHANGELOG.md)
-- [CONTRIBUTING](CONTRIBUTING.md)
-- [SECURITY](SECURITY.md)
-- [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md)
+**README** | [INSTRUCTIONS](INSTRUCTIONS.md) | [CHANGELOG](CHANGELOG.md) | [CONTRIBUTING](CONTRIBUTING.md) | [SECURITY](SECURITY.md) | [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md)

@@ -16,13 +16,16 @@ A **blank GitHub repository shell**: documentation, Dependabot, CODEOWNERS, and 
 
 Add your own CI (build, test, lint, deploy) when the project has a stack.
 
+Workflow and template details live under **[docs/README.md](docs/README.md)** (issue forms, PR template, dependabot-signature workflow).
+
 ### Included markdown (GitHub UI)
 
-Root-level `.md` files are meant to be read on github.com. Each ends with a **Repository documents** footer linking sibling files (the current page is plain text).
+Root-level `.md` files are meant to be read on github.com. Each ends with a **Repository documents** footer: sibling files as horizontal links separated by ` | ` (the current page is plain text).
 
 | File | When to read |
 |------|----------------|
 | [README.md](README.md) | First visit — scope and quick start |
+| [docs/README.md](docs/README.md) | Workflows and GitHub issue/PR templates |
 | **INSTRUCTIONS.md** | Fork setup, releases, CHANGELOG automation |
 | [CHANGELOG.md](CHANGELOG.md) | Published version history |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | External contributors |
@@ -138,7 +141,7 @@ Review dependency PRs like any other: changelog entry only if the upgrade is use
 When extending a repo created from this template:
 
 1. Read **INSTRUCTIONS.md** and [README.md](README.md).
-2. Do not commit secrets; respect `.gitignore`.
+2. Do not commit secrets; respect `.gitignore` (Update it with more exceptions based on used tech-stack).
 3. Use conventional commits for features/fixes destined for CHANGELOG.
 4. Update [CHANGELOG.md](CHANGELOG.md) when cutting a release batch.
 5. Add new automation in `.github/workflows/` and document it in README.
@@ -147,9 +150,4 @@ When extending a repo created from this template:
 
 ## Repository documents
 
-- [README](README.md)
-- **INSTRUCTIONS**
-- [CHANGELOG](CHANGELOG.md)
-- [CONTRIBUTING](CONTRIBUTING.md)
-- [SECURITY](SECURITY.md)
-- [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md)
+[README](README.md) | **INSTRUCTIONS** | [CHANGELOG](CHANGELOG.md) | [CONTRIBUTING](CONTRIBUTING.md) | [SECURITY](SECURITY.md) | [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md)
