@@ -1,0 +1,36 @@
+version: 2
+updates:
+  # Enable version updates for npm/bun/your-bundler-of-choice
+  - package-ecosystem: "bun"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    assignees:
+      # Add codeowner GitHub username here
+      - "xarlizard"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    # Allow both direct and indirect dependencies (optional)
+    allow:
+      - dependency-type: "direct"
+      - dependency-type: "indirect"
+    # Ignore major version updates for stability (optional)
+    ignore:
+      - dependency-name: "*"
+        update-types: 
+          - "version-update:semver-major"
+          - "version-update:semver-patch"
+
+
+  # Enable version updates for GitHub Actions (optional)
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    assignees:
+      # Add codeowner GitHub username here
+      - "xarlizard"
+    commit-message:
+      prefix: "ci"
+      include: "scope"
