@@ -3,9 +3,11 @@
 import { initFromTemplate } from './lib/template-init/index.js';
 import { GITHUB_REPO_MANIFEST } from './lib/template-init/manifests/github-repo.js';
 import { printHelp } from './lib/template-init/parse-args.js';
+import { brandHeader, error as printError } from './lib/template-init/terminal.js';
 
 const args = process.argv.slice(2);
 if (args.includes('--help') || args.includes('-h')) {
+  brandHeader('github repository template');
   printHelp('github-repo-template');
   process.exit(0);
 }
@@ -15,8 +17,9 @@ initFromTemplate({
   includePackageName: false,
   includeBundler: true,
   defaultBundler: 'none',
+  templateLabel: 'github repository template',
   nextSteps: 'review git diff, then commit',
-}).catch((error) => {
-  console.error('❌ Init failed:', error.message);
+}).catch((err) => {
+  printError(`Init failed: ${err.message}`);
   process.exit(1);
 });
