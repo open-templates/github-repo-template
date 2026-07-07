@@ -16,7 +16,7 @@ Update this table when you publish releases.
 Report them via:
 
 1. **GitHub Security Advisory** — private vulnerability reporting on the repository
-2. **Direct contact** — message the maintainer listed in [CODEOWNERS](.github/CODEOWNERS)
+2. **Direct contact** — [@open-templates](https://github.com/open-templates)
 
 ### What to include
 

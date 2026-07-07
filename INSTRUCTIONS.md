@@ -36,15 +36,10 @@ Root-level `.md` files are meant to be read on github.com. Each ends with a **Re
 
 ## First steps after “Use this template”
 
-1. **Rename** the repository and update titles in `README.md`, `CONTRIBUTING.md`, and issue templates.
-2. **CODEOWNERS** — Set `@your-org/team` or `@your-username` instead of `@xarlizard`.
-3. **Dependabot** — Edit `.github/dependabot.yml`:
-   - `package-ecosystem`: `npm`, `bun`, `pip`, `gomod`, `docker`, `github-actions`, etc.
-   - `directory`: `/` or monorepo path
-   - Remove the ecosystem block if unused (e.g. delete `bun` until you have a `package.json`).
-4. **Dependabot signer** — In `dependabot-signature.yml`, set `COAUTHOR_NAME` and `COAUTHOR_EMAIL` to the human maintainer.
-5. **Secrets** — Never commit real `.env` files; `.gitignore` already excludes common secret patterns. Commit only `.env.example` with placeholder values.
-6. **License** — Keep MIT or replace `LICENSE` and references in docs.
+1. **Initialize** — `./scripts/init-from-template.sh` copies `templates/` → root (see [docs/init-from-template.md](docs/init-from-template.md)). Root keeps @open-templates branding until then.
+2. **Dependabot** — Edit `.github/dependabot.yml` for your stack; uncomment assignees if needed.
+3. **Dependabot signer** — Uses `github.repository_owner` at runtime.
+4. **Secrets** — Never commit `.env`; use `.env.example` only.
 
 ---
 
@@ -141,10 +136,11 @@ Review dependency PRs like any other: changelog entry only if the upgrade is use
 When extending a repo created from this template:
 
 1. Read **INSTRUCTIONS.md** and [README.md](README.md).
-2. Do not commit secrets; respect `.gitignore` (Update it with more exceptions based on used tech-stack).
-3. Use conventional commits for features/fixes destined for CHANGELOG.
-4. Update [CHANGELOG.md](CHANGELOG.md) when cutting a release batch.
-5. Add new automation in `.github/workflows/` and document it in README.
+2. Run `./scripts/init-from-template.sh` to copy `templates/` into the repo root.
+3. Do not commit secrets; respect `.gitignore`.
+4. Use conventional commits for features/fixes destined for CHANGELOG.
+5. Update [CHANGELOG.md](CHANGELOG.md) when cutting a release batch.
+6. Add new automation in `.github/workflows/` and document it in README.
 
 ---
 

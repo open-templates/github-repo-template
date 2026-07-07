@@ -4,6 +4,8 @@ Reference for every **workflow**, **issue template**, and **pull request templat
 
 Use this folder after creating a repo from the template to understand what each file does and what to customize.
 
+**First step:** [init-from-template.sh](../scripts/init-from-template.sh) — [Initialize from template](init-from-template.md).
+
 ## Workflows
 
 | Document | Source file | Summary |
@@ -43,4 +45,4 @@ See the [repository README](../README.md) and [INSTRUCTIONS.md](../INSTRUCTIONS.
 
 ## Docs index
 
-**README** | [Dependabot commit signer](dependabot-signature-workflow.md) | [Bug report](bug-report-issue-template.md) | [Feature request](feature-request-issue-template.md) | [Documentation issue](documentation-issue-template.md) | [Pull request template](pull-request-template.md)
+**README** | [Initialize from template](init-from-template.md) | [Dependabot commit signer](dependabot-signature-workflow.md) | [Bug report](bug-report-issue-template.md) | [Feature request](feature-request-issue-template.md) | [Documentation issue](documentation-issue-template.md) | [Pull request template](pull-request-template.md)

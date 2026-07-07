@@ -9,8 +9,8 @@ Participation means agreeing to [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 ## Local setup
 
 ```bash
-git clone https://github.com/YOUR_ORG/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/open-templates/github-repo-template.git
+cd github-repo-template
 ```
 
 Add stack-specific setup steps here once the project grows beyond the empty template.
