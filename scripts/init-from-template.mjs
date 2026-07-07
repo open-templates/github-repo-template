@@ -15,9 +15,15 @@ if (args.includes('--help') || args.includes('-h')) {
 initFromTemplate({
   manifest: GITHUB_REPO_MANIFEST,
   includePackageName: false,
+  includeAuthorStep: true,
   includeBundler: true,
   defaultBundler: 'none',
   templateLabel: 'github repository template',
+  authorStep: {
+    stepTitle: 'maintainer (Git owner)',
+    selectMessage: 'How should we set the repository maintainer?',
+    acceptLabel: 'Accept detected Git owner',
+  },
   nextSteps: 'review git diff, then commit',
 }).catch((err) => {
   printError(`Init failed: ${err.message}`);

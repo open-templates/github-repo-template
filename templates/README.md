@@ -10,7 +10,7 @@ Add stack-specific setup steps.
 
 MIT — see [LICENSE](LICENSE).
 
-Maintained by [owner-display-name](https://github.com/owner-username).
+Maintained by [author-display-name](https://github.com/author-github-login).
 
 ---
 
