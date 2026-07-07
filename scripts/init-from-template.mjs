@@ -24,6 +24,7 @@ initFromTemplate({
     selectMessage: 'How should we set the repository maintainer?',
     acceptLabel: 'Accept detected Git owner',
   },
+  scriptsCleanup: 'all',
   nextSteps: 'review git diff, then commit',
 }).catch((err) => {
   printError(`Init failed: ${err.message}`);

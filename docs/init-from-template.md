@@ -41,6 +41,8 @@ node scripts/init-from-template.mjs --help
 
 `.github/workflows/dependabot-signature.yml` needs no edit (`github.repository_owner` at runtime).
 
+The entire `scripts/` folder is removed after init (one-time wizard). Pass `--no-cleanup` to keep it for debugging.
+
 ---
 
 [← Docs index](README.md)
