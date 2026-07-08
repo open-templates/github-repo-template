@@ -14,7 +14,7 @@ updates:
       - dependency-type: "indirect"
     ignore:
       - dependency-name: "*"
-        update-types: 
+        update-types:
           - "version-update:semver-major"
           - "version-update:semver-patch"
 

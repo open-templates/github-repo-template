@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Initial project scaffold from github-repo-template
+- Initial project scaffold from @open-templates
 
 ---
 

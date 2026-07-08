@@ -1,4 +1,4 @@
-# Instructions — repo-name
+# Instructions — repo-display-name
 
 Guide for maintainers and coding agents working on **owner-username/repo-name**.
 
