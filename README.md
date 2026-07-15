@@ -23,7 +23,7 @@ The hosted repo keeps **@open-templates** branding in root markdown until you ru
 | [`.github/workflows/dependabot-signature.yml`](.github/workflows/dependabot-signature.yml) | `Co-authored-by` via `github.repository_owner` at runtime |
 | [`.github/CODEOWNERS`](.github/CODEOWNERS) | Review ownership |
 
-Full reference: **[docs/README.md](docs/README.md)** · [INSTRUCTIONS.md](INSTRUCTIONS.md)
+Full reference: **[docs/README.md](docs/README.md)** · [INSTRUCTIONS.md](INSTRUCTIONS.md) · [index.md](index.md) · [.agents/skills/](.agents/skills/)
 
 ## License
 

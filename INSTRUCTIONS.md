@@ -135,12 +135,39 @@ Review dependency PRs like any other: changelog entry only if the upgrade is use
 
 When extending a repo created from this template:
 
-1. Read **INSTRUCTIONS.md** and [README.md](README.md).
-2. Run `./scripts/init-from-template.sh` to copy `templates/` into the repo root.
-3. Do not commit secrets; respect `.gitignore`.
-4. Use conventional commits for features/fixes destined for CHANGELOG.
-5. Update [CHANGELOG.md](CHANGELOG.md) when cutting a release batch.
-6. Add new automation in `.github/workflows/` and document it in README.
+1. Read **`INSTRUCTIONS.md`** (this file) and [`index.md`](index.md)
+2. Read **`.agents/skills/index.md`** and **`.agents/skills/README.md`**
+3. Run `./scripts/init-from-template.sh` to copy `templates/` into the repo root
+4. Do not commit secrets; respect `.gitignore`
+5. Use conventional commits for features/fixes destined for CHANGELOG
+6. Update [CHANGELOG.md](CHANGELOG.md) when cutting a release batch
+7. Add numbered concepts under `specs/features/` when adding user-visible behavior
+8. Add new automation in `.github/workflows/` and document it in README
+
+---
+
+## Agent workflow (OKF)
+
+| Step | File |
+|------|------|
+| 1 | `INSTRUCTIONS.md` — setup and governance |
+| 2 | `index.md` — feature contract index |
+| 3 | `.agents/skills/index.md` — module recreation guides |
+| 4 | `.agents/skills/README.md` — Cursor skill catalog |
+
+Workspace convention: [open-templates specs OKF agent workflow](https://github.com/open-templates/specs/blob/main/concepts/okf-agent-workflow.md)
+
+---
+
+## Repository map
+
+```
+index.md              OKF bundle root
+specs/features/       Numbered out-of-the-box specs
+.agents/skills/       OKF modules + Cursor SKILL.md packs
+templates/            Adopter files (init copies to root)
+docs/                 GitHub workflow reference
+```
 
 ---
 
